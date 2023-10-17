@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression suite">
+    <parameter name="url" value="http://www.saucedemo.com"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <test name="login sauce demo test">
+        <classes>
+<!--            <class name="saucedemotest.ValidLoginExampleTest"></class>-->
+<!--             <class name="saucedemotest.InvalidLoginTest"></class>-->
+<!--            <class name="saucedemotest.AddCart"></class>-->
+            <class name="saucedemotest.dropDown"></class>
+        </classes>
+    </test>
+</suite>
